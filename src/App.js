@@ -1,9 +1,12 @@
 import './App.css';
+import TodosLogic from './components/TodoLogic';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className="wrapper">
+      <div className="todos">
+        <TodosLogic />
+      </div>
     </div>
   );
 }
